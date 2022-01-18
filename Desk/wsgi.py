@@ -1,5 +1,5 @@
 """
-WSGI config for Desk project.
+WSGI config for Desksite project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Desk.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Desksite.settings')
 
 application = get_wsgi_application()
